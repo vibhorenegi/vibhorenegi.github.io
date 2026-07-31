@@ -147,6 +147,15 @@ function renderCV(cv){
         </div>
       `).join('') + `</div>`);
   }
+  if (cv.service?.length){
+    groups.push(`<div class="cv-group"><h3>Service</h3>` +
+      cv.service.map(r => `
+        <div class="cv-row">
+          <div class="when mono">${r.when}</div>
+          <div class="what"><strong>${r.what}</strong><div class="where">${r.where}</div></div>
+        </div>
+      `).join('') + `</div>`);
+  }
   return groups.join('');
 }
 

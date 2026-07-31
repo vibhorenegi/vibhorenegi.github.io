@@ -11,7 +11,7 @@ const NAV = [
   { id: "research",     label: "Research",     href: "research.html" },
   { id: "publications", label: "Publications", href: "publications.html" },
   { id: "cv",           label: "CV",           href: "cv.html" },
-  { id: "outreach",     label: "Outreach",     href: "outreach.html" },
+  { id: "outside",      label: "Outside Research", href: "outside-research.html" },
   { id: "contact",      label: "Contact",      href: "contact.html" }
 ];
 
@@ -32,9 +32,9 @@ const DATA = {
         
   I did my PhD from Aryabhatta Research Institute of Observational Sciences, India, focussing on variability of 
   active galactic nuclei on diverse timescales, along with highly contributing to the commissioning of the 4-m International
-  Liquid Mirror Telescope (ILMT).
-        
-        
+  Liquid Mirror Telescope (ILMT).`,
+
+  outside_text: `
   I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
   way. I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
@@ -124,6 +124,10 @@ research_text: `I primarily work on understanding the physics and environments
       { when: "2023-03", what: "Poster: Astrometric calibration of the 4m ILMT data", where: "3rd BINA Workshop, Nainital, India" },
       { when: "2022-03", what: "Poster: Optical flux and colour variability of blazars in the ZTF survey", where: "ASI Annual Meet, Roorkee, India" },
       { when: "2019-02", what: "Poster: Data reduction pipeline for 4m ILMT", where: "ASI Annual Meet, Bengaluru, India" }
+    ],
+    service: [
+      { when: "2019-03", what: "Coordinator and Supervisor, ARIES Training School in Observational Astronomy (ATSOA) 2019", where: "ARIES, Nainital" },
+      { when: "2022-11", what: "Member, Scientific Organising Committee, Young Astronomers' Meet (YAM) 2022", where: "ARIES, Nainital" }
     ]
   },
 
@@ -143,11 +147,6 @@ research_text: `I primarily work on understanding the physics and environments
     { when: "2024 –", what: "Member, Strong Lensing Science Collaboration (SLSC)", where: "Rubin LSST Science Collaborations" },
     { when: "2019 –", what: "Member, GAIA Gravitational Lenses (GAIA-GraL) Collaboration" },
     { when: "2018 –", what: "Core member, 4m International Liquid Mirror Telescope (ILMT) team" }
-  ],
-
-  service: [
-    { when: "2019-03", what: "Coordinator and Supervisor, ARIES Training School in Observational Astronomy (ATSOA) 2019", where: "ARIES, Nainital" },
-    { when: "2022-11", what: "Member, Scientific Organising Committee, Young Astronomers' Meet (YAM) 2022", where: "ARIES, Nainital" }
   ],
 
   contact: {
