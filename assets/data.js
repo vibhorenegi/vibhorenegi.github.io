@@ -136,7 +136,7 @@ const DATA = {
   },
 
   links: {
-    "ADS": "#",
-    "GitHub": "https://github.com/Vibhore-ARIES"
+    "ADS": "https://ui.adsabs.harvard.edu/user/libraries/SBEx_gRGRsaRAcDC9Bhpzw",
+    "GitHub": "https://github.com/vibhorenegi"
   }
 };
