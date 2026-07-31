@@ -22,9 +22,7 @@ const DATA = {
   location: "Beijing · 39.99 N · 116.31 E",
   photo: "assets/photo.jpeg",   // e.g. "photo.jpg" — put the image file in this same folder. Leave "" for no photo.
 
-  bio: `BOYA Fellow, Kavli Institute for Astronomy and Astrophysics, Peking University. 
-  
-  AGN physics · galaxy evolution · gravitational lensing · big survey data.`,
+  bio: `Studying the engines at galactic centers, and the imprint they leave on galaxy evolution`,
 
   about_text: `
   I am a BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics,
