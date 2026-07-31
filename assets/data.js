@@ -37,8 +37,8 @@ const DATA = {
         
   I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
-  way. I play cricket and table tennis, watch movies (and probably too much YouTube), and enjoy 
-  wandering, especially with like-minded people up for exploring without much of a plan.`,
+  way. I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
+   enjoy wandering, without much of a plan.`,
   
  
   interests: [
