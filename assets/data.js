@@ -22,11 +22,19 @@ const DATA = {
   location: "Beijing · 39.99 N · 116.31 E",
   photo: "assets/photo.jpeg",   // e.g. "photo.jpg" — put the image file in this same folder. Leave "" for no photo.
 
-  bio: `I am a BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics,
-        Peking University, studying the physics and environments of active galactic
-        nuclei, and their role in shaping the chemical enrichment in galaxies.`,
+  bio: `BOYA Fellow, Kavli Institute for Astronomy and Astrophysics, Peking University. 
+  
+  AGN physics · galaxy evolution · gravitational lensing · big survey data.`,
 
   about_text: `
+  I am a BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics,
+        Peking University, studying the physics and environments of active galactic
+        nuclei, and their role in shaping the chemical enrichment in galaxies.
+        
+  I did my PhD from Aryabhatta Research Institute of Observational Sciences, India, focussing on variability of 
+  active galactic nuclei on diverse timescales, along with highly contributing to the commissioning of the 4-m International
+  Liquid Mirror Telescope (ILMT).
+        
   I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
   way. I play cricket and table tennis, watch movies (and probably too much YouTube), and enjoy 
