@@ -18,7 +18,7 @@
     <p class="page-sub">Background, path, and current focus</p>
 
     <section>
-      <p class="lede" id="js-about"></p>
+      <div class="lede" id="js-about"></div>
     </section>
 
     <section>
@@ -35,7 +35,11 @@
   renderSidebar();
   renderTopbar('about');
   renderFooter();
-  document.getElementById('js-about').textContent = DATA.about_text;
+  document.getElementById('js-about').innerHTML =
+    DATA.about_text
+      .split(/\n\s*\n/)
+      .map(p => `<p style="margin-bottom:20px;">${p.trim()}</p>`)
+      .join('');
   document.getElementById('js-leadership').innerHTML = renderItemList(DATA.leadership);
 </script>
 </body>
