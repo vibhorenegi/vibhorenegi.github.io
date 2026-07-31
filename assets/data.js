@@ -24,6 +24,7 @@ const DATA = {
 
   bio: `Studying the engines at galactic centers, and the imprint they leave on galaxy evolution`,
 
+
   about_text: `
   I am a BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics,
         Peking University, studying the physics and environments of active galactic
@@ -32,12 +33,19 @@ const DATA = {
         
   I did my PhD from Aryabhatta Research Institute of Observational Sciences, India, focussing on variability of 
   active galactic nuclei on diverse timescales, along with highly contributing to the commissioning of the 4-m International
-  Liquid Mirror Telescope (ILMT).`,
+  Liquid Mirror Telescope (ILMT).
+
+
+  Coming from an observatory background, I have hands-on expertise with ground-based
+  telescopes and observational data analysis. More recently, though, my work has
+  shifted toward leveraging archival datasets from large surveys.`,
 
   outside_text: `
   I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
-  way. I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
+  way. 
+  
+  I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
    enjoy wandering, without much of a plan.`,
   
  
