@@ -29,9 +29,11 @@ const DATA = {
         Peking University, studying the physics and environments of active galactic
         nuclei, and their role in shaping the chemical enrichment in galaxies.
         
+        
   I did my PhD from Aryabhatta Research Institute of Observational Sciences, India, focussing on variability of 
   active galactic nuclei on diverse timescales, along with highly contributing to the commissioning of the 4-m International
   Liquid Mirror Telescope (ILMT).
+        
         
   I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
