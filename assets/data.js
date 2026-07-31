@@ -26,18 +26,13 @@ const DATA = {
         Peking University, studying the physics and environments of active galactic
         nuclei, and their role in shaping the chemical enrichment in galaxies.`,
 
-  about_text: `I primarily work on understanding the physics and environments
-        of active galactic nuclei (AGN), including their structure and kinematics, 
-        their role in shaping the galaxy evolution. My path has taken me from a PhD at ARIES,
-        India — where I helped commission the 4m International Liquid Mirror
-        Telescope (ILMT) — to a Rubin LSST Postdoctoral Fellowship at IUCAA, Pune,
-        and now a BOYA Fellowship at Peking University. Along the way I've
-        developed a taste for building the data pipelines and simulations that make
-        large survey science possible, alongside the observational work itself.
-        I'm an active member of several international collaborations and enjoy
-        contributing to community tools and training the next generation of
-        observers.`,
-
+  about_text: `
+  I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
+  did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
+  way. I play cricket and table tennis, watch movies (and probably too much YouTube), and enjoy 
+  wandering, especially with like-minded people up for exploring without much of a plan.`,
+  
+ 
   interests: [
     "AGN physics & environments",
     "Chemical enrichment in galaxies",
@@ -46,13 +41,32 @@ const DATA = {
     "Gravitational lensing"
   ],
 
-  research_text: `My work spans observational and survey-scale extragalactic astrophysics.
-        I use optical and NIR photometry and spectroscopy of AGN and galaxies to study their
-        environments and evolution, and I build data reduction and analysis pipelines for
-        large surveys — including the 4m International Liquid Mirror Telescope (ILMT) and
-        simulations for Rubin LSST. I'm a member of the Rubin LSST AGN, Dark Energy, and
-        Strong Lensing Science Collaborations, the GAIA Gravitational Lenses (GAIA-GraL)
-        collaboration, and a core member of the 4m ILMT team.`,
+        
+research_text: `I primarily work on understanding the physics and environments
+        of active galactic nuclei (AGN) — their structure and kinematics, and
+        their role in shaping galaxy evolution. Observationally, I use optical
+        and NIR photometry and spectroscopy to study AGN and their host
+        environments, drawing on large datasets from next-generation surveys
+        like DESI, ZTF, and Gaia.
+
+        Day to day, most of my work is code. I develop data reduction and
+        analysis pipelines in Python, using tools like IRAF, DAOPHOT,
+        SExtractor, GALFIT, and TOPCAT for photometric and spectroscopic
+        calibration, source extraction, and astrometry. For the 4m
+        International Liquid Mirror Telescope (ILMT), I've worked on
+        astrometric calibration and transient-detection pipelines for its
+        scanning-mode (TDI) survey data. I also build simulations and mock
+        datasets — including generating simulated lensed quasar images for
+        Rubin LSST.
+
+        My path has taken me from a PhD at ARIES, India — where I helped
+        commission the ILMT — to a Rubin LSST Postdoctoral Fellowship at
+        IUCAA, Pune, and now a BOYA Fellowship at Peking University. I'm a
+        member of the Rubin LSST AGN, Dark Energy, and Strong Lensing Science
+        Collaborations, the Gaia Gravitational Lenses (GAIA-GraL)
+        collaboration, and a core member of the 4m ILMT team, and I enjoy
+        contributing to community tools and training the next generation of
+        observers.`,
 
   news: [
     { date: "2026-06", text: "New paper: \"Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations,\" accepted in PASP." },
