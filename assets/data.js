@@ -24,46 +24,24 @@ const DATA = {
 
   bio: `Studying the engines at galactic centers, and the imprint they leave on galaxy evolution`,
 
-
-  about_text: `
-  I am a BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics,
-        Peking University, studying the physics and environments of active galactic
-        nuclei, and their role in shaping the chemical enrichment in galaxies.
+  about_text: `I am a BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics,
+        Peking University. I received my PhD from ARIES, India, in 2024, focussing on variability of 
+        active galactic nuclei on diverse timescales, along with highly contributing to the commissioning 
+        of the 4-m International Liquid Mirror Telescope (ILMT).
         
         
-  I did my PhD from Aryabhatta Research Institute of Observational Sciences, India, focussing on variability of 
-  active galactic nuclei on diverse timescales, along with highly contributing to the commissioning of the 4-m International
-  Liquid Mirror Telescope (ILMT).
+        Coming from an observatory background, I have hands-on expertise with ground-based
+        telescopes and observational data analysis. More recently, though, my work has
+        shifted toward leveraging archival datasets from large surveys.
 
 
-  Coming from an observatory background, I have hands-on expertise with ground-based
-  telescopes and observational data analysis. More recently, though, my work has
-  shifted toward leveraging archival datasets from large surveys.`,
-
-  outside_text: `
-  I grew up in Almora in the Indian Himalayas, spent six years in Delhi for my BSc and MSc, 
-  did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
-  way. 
-  
-  I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
-   enjoy wandering, without much of a plan.`,
-  
- 
-  interests: [
-    "AGN physics & environments",
-    "Chemical enrichment in galaxies",
-    "AGN feedback & galaxy evolution",
-    "Big survey data pipelines",
-    "Gravitational lensing"
-  ],
-
-        
-research_text: `I primarily work on understanding the physics and environments
+        I primarily work on understanding the physics and environments
         of active galactic nuclei (AGN) — their structure and kinematics, and
         their role in shaping galaxy evolution. Observationally, I use optical
         and NIR photometry and spectroscopy to study AGN and their host
         environments, drawing on large datasets from next-generation surveys
         like DESI, ZTF, and Gaia.
+
 
         Day to day, most of my work is code. I develop data reduction and
         analysis pipelines in Python, using tools like IRAF, DAOPHOT,
@@ -75,6 +53,7 @@ research_text: `I primarily work on understanding the physics and environments
         datasets — including generating simulated lensed quasar images for
         Rubin LSST.
 
+
         My path has taken me from a PhD at ARIES, India — where I helped
         commission the ILMT — to a Rubin LSST Postdoctoral Fellowship at
         IUCAA, Pune, and now a BOYA Fellowship at Peking University. I'm a
@@ -83,6 +62,54 @@ research_text: `I primarily work on understanding the physics and environments
         collaboration, and a core member of the 4m ILMT team, and I enjoy
         contributing to community tools and training the next generation of
         observers.`,
+
+  outside_text: `
+  I grew up in Almora in the Indian Himalayas, spent a few years in Delhi for my undergraduation, 
+  did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
+  way. I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
+   enjoy wandering, without much of a plan.`,
+  
+ 
+  interests: [
+    "AGN physics & environments",
+    "Chemical enrichment in galaxies",
+    "AGN feedback & galaxy evolution",
+    "Big survey data pipelines",
+    "Gravitational lensing"
+  ],
+
+  journey: [
+    { place: "Almora", note: "Where I grew up" },
+    { place: "Delhi", note: "BSc & MSc" },
+    { place: "Nainital", note: "PhD, ARIES" },
+    { place: "Pune", note: "Rubin LSST Fellow, IUCAA" },
+    { place: "Beijing", note: "BOYA Fellow, PKU" }
+  ],
+
+        
+research_text: `My research centers on active galactic nuclei — their physics,
+        environments, and role in galaxy evolution — approached through a mix of
+        survey-scale archival data, observational photometry and spectroscopy, and
+        the pipelines that make sense of both.`,
+
+  research_areas: [
+    {
+      title: "DESI as sparse IFU: chemical enrichment in galaxies",
+      text: "Using DESI spectroscopy as a sparsely-sampled integral field spectrograph to map spatially resolved chemical abundances in local star-forming galaxies."
+    },
+    {
+      title: "AGN variability on diverse timescales",
+      text: "Studying the optical variability of AGN and blazars from intra-night to year-long timescales, using surveys like ZTF, to probe jet and accretion physics."
+    },
+    {
+      title: "ILMT astrometry pipeline & project contributions",
+      text: "Building astrometric calibration and transient-detection pipelines for the 4m International Liquid Mirror Telescope, and contributing to its commissioning."
+    },
+    {
+      title: "Gravitational lensing",
+      text: "Searching for and characterizing gravitationally lensed quasars, and generating mock lensed-image simulations for Rubin LSST."
+    }
+  ],
 
   news: [
     { date: "2026-06", text: "New paper: \"Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations,\" accepted in PASP." },

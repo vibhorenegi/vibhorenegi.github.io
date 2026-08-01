@@ -23,7 +23,18 @@
     </section>
 
     <section>
-      <div class="section-head"><span class="idx mono">§01</span><h2>Selected Observing Proposals (PI)</h2></div>
+      <div class="section-head"><span class="idx mono">§01</span><h2>Research Areas</h2></div>
+      <div id="js-research-areas"></div>
+    </section>
+
+    <section>
+      <div class="section-head"><span class="idx mono">§02</span><h2>Selected Publications</h2></div>
+      <div id="js-pubs"></div>
+      <p style="margin-top:16px; font-size:.85rem;"><a href="publications.html">See all publications →</a></p>
+    </section>
+
+    <section>
+      <div class="section-head"><span class="idx mono">§03</span><h2>Selected Observing Proposals (PI)</h2></div>
       <div class="item-list" id="js-proposals"></div>
     </section>
   </main>
@@ -38,6 +49,8 @@
   renderFooter();
   document.getElementById('js-research-text').textContent = DATA.research_text;
   document.getElementById('js-tags').innerHTML = renderTags(DATA.interests);
+  document.getElementById('js-research-areas').innerHTML = renderResearchAreas(DATA.research_areas);
+  document.getElementById('js-pubs').innerHTML = renderPublications(DATA.publications.slice(0, 3));
   document.getElementById('js-proposals').innerHTML = renderItemList(DATA.research_proposals);
 </script>
 </body>

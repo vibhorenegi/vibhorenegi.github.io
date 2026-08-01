@@ -70,6 +70,27 @@ function renderTags(items){
   return items.map(t => `<span class="tag">${t}</span>`).join('');
 }
 
+function renderJourney(stops){
+  return `<div class="journey">` +
+    stops.map(s => `
+      <div class="journey-stop">
+        <div class="journey-dot"></div>
+        <div class="journey-place">${s.place}</div>
+        <div class="journey-note">${s.note}</div>
+      </div>
+    `).join('') +
+    `</div>`;
+}
+
+function renderResearchAreas(areas){
+  return areas.map(a => `
+    <div class="cv-group">
+      <h3>${a.title}</h3>
+      <p style="font-size:.92rem; color:var(--ink-soft); margin:0;">${a.text}</p>
+    </div>
+  `).join('');
+}
+
 function renderLog(items){
   return items.map(n => `
     <div class="log-entry">
