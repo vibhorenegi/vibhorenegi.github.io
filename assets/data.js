@@ -73,7 +73,7 @@ const DATA = {
     { src: "assets/photos/skiing.jpeg", caption: "First time on skis" },
     { src: "assets/photos/greatwall.jpeg", caption: "Standing on a couple thousand years of history" },
     { src: "assets/photos/hector.jpeg", caption: "Hector, under my supervision" },
-    { src: "assets/photos/snow.jpeg", caption: "Perks of winter observations" },
+    { src: "assets/photos/snow.jpeg", caption: "Observing runs, winter edition" },
     { src: "assets/photos/paragliding.JPG", caption: "Tandem paragliding" },
     { src: "assets/photos/tabletennis.jpeg", caption: "1-0, vs. the net" },
 
