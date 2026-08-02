@@ -154,6 +154,71 @@ section{margin-bottom:64px; scroll-margin-top:24px;}
 
 /* interests tags */
 .tags{display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;}
+
+/* journey route diagram */
+.journey{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  position:relative;
+  padding:20px 0 8px;
+  margin-top:8px;
+}
+.journey::before{
+  content:"";
+  position:absolute;
+  top:28px;
+  left:6px;
+  right:6px;
+  height:1px;
+  background:repeating-linear-gradient(to right, var(--navy) 0, var(--navy) 4px, transparent 4px, transparent 9px);
+  opacity:.5;
+}
+.journey-stop{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  flex:1;
+  position:relative;
+  z-index:1;
+}
+.journey-dot{
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background:var(--paper);
+  border:2px solid var(--navy);
+  margin-bottom:10px;
+}
+.journey-stop:first-child .journey-dot,
+.journey-stop:last-child .journey-dot{
+  background:var(--spectral);
+  border-color:var(--spectral);
+}
+.journey-place{
+  font-family:'Source Serif 4', Georgia, serif;
+  font-weight:600;
+  font-size:.95rem;
+  color:var(--ink);
+}
+.journey-note{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:.7rem;
+  color:var(--muted);
+  margin-top:4px;
+  max-width:110px;
+}
+@media (max-width: 700px){
+  .journey{flex-direction:column; align-items:flex-start; gap:22px; padding-left:14px;}
+  .journey::before{
+    top:6px; bottom:6px; left:3px; right:auto; width:1px; height:auto;
+    background:repeating-linear-gradient(to bottom, var(--navy) 0, var(--navy) 4px, transparent 4px, transparent 9px);
+  }
+  .journey-stop{flex-direction:row; align-items:center; text-align:left; gap:12px;}
+  .journey-dot{margin-bottom:0;}
+  .journey-note{max-width:none;}
+}
 .tag{
   font-family:'IBM Plex Mono', monospace;
   font-size:.72rem;
@@ -199,6 +264,29 @@ section{margin-bottom:64px; scroll-margin-top:24px;}
   letter-spacing:.06em;
 }
 .contact-item .v{margin-top:4px; font-size:.95rem;}
+
+/* photo grid */
+.photo-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:16px;
+  margin-top:8px;
+}
+.photo-item img{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  border:1px solid var(--line);
+  display:block;
+}
+.photo-caption{
+  font-size:.7rem;
+  color:var(--muted);
+  margin-top:8px;
+}
+@media (max-width: 700px){
+  .photo-grid{grid-template-columns:repeat(2, 1fr);}
+}
 
 footer{padding:28px 48px 48px; font-size:.75rem; color:var(--muted); font-family:'IBM Plex Mono', monospace;}
 

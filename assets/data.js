@@ -20,7 +20,7 @@ const DATA = {
   role: "BOYA Fellow",
   institution: "Kavli Institute for Astronomy and Astrophysics, Peking University",
   location: "Beijing · 39.99 N · 116.31 E",
-  photo: "assets/photo.jpeg",   // e.g. "photo.jpg" — put the image file in this same folder. Leave "" for no photo.
+  photo: "assets/photos/photo.jpeg",   // e.g. "photo.jpg" — put the image file in this same folder. Leave "" for no photo.
 
   bio: `Studying the engines at galactic centers, and the imprint they leave on galaxy evolution`,
 
@@ -68,6 +68,15 @@ const DATA = {
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
   way. I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
    enjoy wandering, without much of a plan.`,
+
+  photos: [
+    { src: "assets/photos/skiing.jpeg", caption: "Skiing, Beijing" },
+    { src: "assets/photos/hector.jpeg", caption: "Hector, under my supervision" },
+    { src: "assets/photos/tabletennis.jpeg", caption: "1-0, vs. the net" },
+    { src: "assets/photos/snow.jpeg", caption: "Observing in Winters" },
+    { src: "assets/photos/greatwall.jpeg", caption: "Standing on a couple thousand years of history" },
+    { src: "assets/photos/paragliding.JPG", caption: "Tandem paragliding" }
+  ],
   
  
   interests: [

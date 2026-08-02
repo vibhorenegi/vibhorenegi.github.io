@@ -20,6 +20,11 @@
     <section>
       <div class="lede" id="js-outside"></div>
     </section>
+
+    <section>
+      <div class="section-head"><span class="idx mono">§01</span><h2>Snapshots</h2></div>
+      <div id="js-photos"></div>
+    </section>
   </main>
 </div>
 <footer id="footer"></footer>
@@ -35,6 +40,7 @@
       .split(/\n\s*\n/)
       .map(p => `<p style="margin-bottom:20px;">${p.trim()}</p>`)
       .join('');
+  document.getElementById('js-photos').innerHTML = renderPhotoGrid(DATA.photos);
 </script>
 </body>
 </html>

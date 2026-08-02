@@ -91,6 +91,17 @@ function renderResearchAreas(areas){
   `).join('');
 }
 
+function renderPhotoGrid(photos){
+  return `<div class="photo-grid">` +
+    photos.map(p => `
+      <div class="photo-item">
+        <img src="${p.src}" alt="${p.caption}" loading="lazy">
+        <div class="photo-caption mono">${p.caption}</div>
+      </div>
+    `).join('') +
+    `</div>`;
+}
+
 function renderLog(items){
   return items.map(n => `
     <div class="log-entry">
