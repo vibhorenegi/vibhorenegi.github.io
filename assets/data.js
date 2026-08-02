@@ -87,27 +87,66 @@ const DATA = {
   ],
 
         
-research_text: `My research centers on active galactic nuclei — their physics,
-        environments, and role in galaxy evolution — approached through a mix of
-        survey-scale archival data, observational photometry and spectroscopy, and
-        the pipelines that make sense of both.`,
+research_text: `My research interests are fairly diverse, but center primarily on active galactic nuclei 
+and their role in galaxy evolution — approached through a mix of survey-scale archival 
+data, observational photometry and spectroscopy, and the pipelines that make sense of both.`,
+
+
 
   research_areas: [
     {
-      title: "DESI as sparse IFU: chemical enrichment in galaxies",
-      text: "Using DESI spectroscopy as a sparsely-sampled integral field spectrograph to map spatially resolved chemical abundances in local star-forming galaxies."
+      title: "DESI as sparse IFU: chemical enrichment in galaxies and AGNs",
+      text: `Dedicated integral field spectrographs are expensive and rare, but a multi-fiber survey 
+      like DESI can approximate one when several fibers happen to land across a single nearby, extended 
+      galaxy. I've been developing this as a technique — treating DESI's fiber placements as a 
+      sparse IFU — to recover spatially resolved chemical abundance measurements without needing dedicated 
+      IFU time. Applied to a sample of local star-forming galaxies at z ≤ 0.1, this lets us map how metallicity 
+      varies across a galaxy's disk and test what that gradient says about how the galaxy assembled its gas and 
+      stars over time. Because it piggybacks on existing DESI data rather than requiring new observations, 
+      the approach scales to far more galaxies than traditional IFU surveys ever could. This is the basis 
+      of my first-author paper currently under review at ApJ.`
     },
     {
       title: "AGN variability on diverse timescales",
-      text: "Studying the optical variability of AGN and blazars from intra-night to year-long timescales, using surveys like ZTF, to probe jet and accretion physics."
+      text: `Much of my early work focused on intranight optical variability (INOV) — brightness 
+      changes in AGN and blazars over just hours — as a probe of what's physically driving the 
+      emission close to the black hole. Using ground-based monitoring at the Devasthal Optical 
+      Telescope alongside large time-domain surveys like ZTF, I've studied how variability behavior 
+      differs between blazars with fast-moving versus slow-moving radio jets, and between jet-dominated 
+      blazars and radio-quiet quasars where the disk itself likely drives the variability. This included 
+      population-level duty-cycle statistics rather than single-target monitoring, which let us test trends 
+      across dozens of sources at once instead of one at a time. One strand of this work also turned up 
+      tentative low-frequency quasi-periodic oscillations in blazar light curves, hinting at underlying 
+      periodic structure in the emission. Together, these results help separate variability driven by 
+      relativistic jets from variability driven by accretion-disk instabilities across timescales from 
+      minutes to years.`
     },
     {
       title: "ILMT astrometry pipeline & project contributions",
-      text: "Building astrometric calibration and transient-detection pipelines for the 4m International Liquid Mirror Telescope, and contributing to its commissioning."
+      text: `The 4-m International Liquid Mirror Telescope is a fixed, zenith-pointing telescope that scans a
+       single strip of sky as the Earth rotates, which means it can't be calibrated the way a normal pointed 
+       telescope is — there's no dithering, no repeat pointings to lean on. I was part of the core team that 
+       commissioned ILMT and helped build the astrometric calibration pipeline that solves this problem, mapping 
+       detector pixels to sky coordinates specifically for its drift-scan (TDI) observing mode. I also worked on 
+       the case for a TDI-specific optical corrector, assessing what image quality the survey needs to deliver 
+       reliable photometry and astrometry across its full field. Beyond calibration, I contributed to 
+       transient-detection pipelines that flag variable and transient sources as ILMT's nightly strip of sky c
+       omes in. Having been involved from construction through early science operations, I've seen this telescope 
+       go from a design on paper to a working survey instrument.`
     },
     {
       title: "Gravitational lensing",
-      text: "Searching for and characterizing gravitationally lensed quasars, and generating mock lensed-image simulations for Rubin LSST."
+      text: `I'm part of the GAIA Gravitational Lenses (GAIA-GraL) collaboration, which uses Gaia's astrometry and 
+      multi-band photometry to flag candidate gravitationally lensed quasars — systems where a foreground galaxy 
+      splits the light from a background quasar into multiple images. As PI on several observing proposals, I've 
+      followed up these candidates with spectroscopy and imaging to confirm which are genuine lenses, and to 
+      characterize the deflector galaxies responsible for the lensing. I've also led photometric monitoring 
+      campaigns on confirmed lenses, including a quadruply imaged quasar, to measure the time delays between 
+      images — a technique that can independently constrain cosmological parameters. More recently, I've been 
+      generating mock simulated lensed images for Rubin LSST, using tools like SIMCT to help the community 
+      prepare for the much larger population of lenses that survey is expected to discover. Together this spans 
+      the full pipeline: finding candidate lenses, confirming and characterizing them, and getting ready for the 
+      next generation of lens surveys.`
     }
   ],
 
