@@ -105,7 +105,7 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
 
   research_areas: [
     {
-      title: "DESI as sparse IFU: chemical enrichment in galaxies and AGNs",
+      title: "DESI as sparse IFU: chemical enrichment in galaxies and AGN",
       text: `Dedicated integral field spectrographs are expensive and rare, but a multi-fiber survey 
       like DESI can approximate one when several fibers happen to land across a single nearby, extended 
       galaxy. I've been exploiting the high multiplexing of the DESI survey - treating its fiber placements as 
