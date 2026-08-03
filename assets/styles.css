@@ -92,7 +92,7 @@ a:focus-visible, button:focus-visible{outline:2px solid var(--navy); outline-off
 .finder .crosshair{stroke:var(--spectral); stroke-width:1;}
 .finder text{font-family:'IBM Plex Mono', monospace; fill:var(--muted); font-size:6px;}
 
-.id-block h1{font-size:1.5rem; letter-spacing:.01em;}
+.id-block h1{font-size:1.7rem; letter-spacing:.01em;}
 .id-block .role{margin-top:6px; font-size:.92rem; color:var(--ink-soft);}
 .id-block .inst{font-size:.85rem; color:var(--muted); margin-top:2px;}
 .coords{font-size:.72rem; color:var(--muted); margin-top:14px; letter-spacing:.02em;}
@@ -118,20 +118,20 @@ section{margin-bottom:64px; scroll-margin-top:24px;}
   color:var(--gold);
   letter-spacing:.05em;
 }
-.section-head h2{font-size:1.15rem; letter-spacing:.02em; text-transform:uppercase;}
+.section-head h2{font-size:1.3rem; letter-spacing:.02em; text-transform:uppercase;}
 .page-title{font-size:2rem; margin-bottom:10px;}
 .page-sub{color:var(--muted); font-size:.9rem; margin-bottom:40px;}
 
-.lede{font-size:1.05rem; color:var(--ink-soft); max-width:64ch;}
+.lede{font-size:1.15rem; color:var(--ink-soft); max-width:64ch; line-height:1.7;}
 
 /* news / log / list entries */
 .log-entry{
   display:grid;
   grid-template-columns:96px 1fr;
   gap:18px;
-  padding:14px 0;
+  padding:16px 0;
   border-bottom:1px dashed var(--line);
-  font-size:.92rem;
+  font-size:1rem;
 }
 .log-entry:last-child{border-bottom:none;}
 .log-entry time{font-family:'IBM Plex Mono', monospace; font-size:.78rem; color:var(--muted); padding-top:2px;}
@@ -221,11 +221,11 @@ section{margin-bottom:64px; scroll-margin-top:24px;}
 }
 .tag{
   font-family:'IBM Plex Mono', monospace;
-  font-size:.72rem;
+  font-size:.8rem;
   color:var(--navy-deep);
   background:var(--panel);
   border:1px solid var(--line);
-  padding:5px 10px;
+  padding:7px 12px;
   border-radius:var(--radius);
 }
 
