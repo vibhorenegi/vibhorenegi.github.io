@@ -51,17 +51,7 @@ const DATA = {
         astrometric calibration and transient-detection pipelines for its
         scanning-mode (TDI) survey data. I also build simulations and mock
         datasets — including generating simulated lensed quasar images for
-        Rubin LSST.
-
-
-        My path has taken me from a PhD at ARIES, India — where I helped
-        commission the ILMT — to a Rubin LSST Postdoctoral Fellowship at
-        IUCAA, Pune, and now a BOYA Fellowship at Peking University. I'm a
-        member of the Rubin LSST AGN, Dark Energy, and Strong Lensing Science
-        Collaborations, the Gaia Gravitational Lenses (GAIA-GraL)
-        collaboration, and a core member of the 4m ILMT team, and I enjoy
-        contributing to community tools and training the next generation of
-        observers.`,
+        Rubin LSST.`,
 
   outside_text: `
   I grew up in Almora in the Indian Himalayas, a few years in Delhi for my bachelor's and master's degrees, 
