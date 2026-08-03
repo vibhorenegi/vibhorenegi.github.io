@@ -64,10 +64,10 @@ const DATA = {
         observers.`,
 
   outside_text: `
-  I grew up in Almora in the Indian Himalayas, spent a few years in Delhi for my undergraduation, 
+  I grew up in Almora in the Indian Himalayas, a few years in Delhi for my bachelor's and master's degrees, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
-  way. I play cricket and table tennis, watch movies (and probably too much YouTube), and frequently
-   enjoy wandering, without much of a plan.`,
+  way. Outside of work, I play cricket and table tennis, watch movies (and probably too much YouTube), 
+  and frequently enjoy wandering, without much of a plan.`,
 
   photos: [
     { src: "assets/photos/skiing.jpeg", caption: "First time on skis" },
