@@ -124,15 +124,13 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
     {
       title: "ILMT astrometry pipeline & project contributions",
       text: `The 4-m International Liquid Mirror Telescope is a fixed, zenith-pointing telescope that scans a
-       single strip of sky as the Earth rotates, which means it can't be calibrated the way a normal pointed 
-       telescope is — there's no dithering, no repeat pointings to lean on. I was part of the core team that 
-       commissioned ILMT and helped build the astrometric calibration pipeline that solves this problem, mapping 
-       detector pixels to sky coordinates specifically for its drift-scan (TDI) observing mode. I also worked on 
-       the case for a TDI-specific optical corrector, assessing what image quality the survey needs to deliver 
-       reliable photometry and astrometry across its full field. Beyond calibration, I contributed to 
-       transient-detection pipelines that flag variable and transient sources as ILMT's nightly strip of sky c
-       omes in. Having been involved from construction through early science operations, I've seen this telescope 
-       go from a design on paper to a working survey instrument.`
+       single strip of sky with a one day cadence, which is unlike how conventional pointed telescopes operate.
+        Since my PhD, I have been a part of the core team that commissioned ILMT and led the development of its 
+        astrometric calibration pipeline that maps the detector pixels to sky coordinates specifically for 
+        its drift-scan (TDI) observing mode. Beyond astrometric calibration, I contributed to 
+       photometric and transient-detection pipelines that flag variable and transient sources as ILMT's nightly strip of sky 
+       comes in. Having been involved from construction through early science operations, I've seen this telescope 
+       go from commissioning to a regular survey mode telescope.`
     },
     {
       title: "Gravitational lensing",
@@ -142,7 +140,8 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
       followed up these candidates with spectroscopy and imaging to confirm which are real lenses, and to 
       characterize the deflector galaxies responsible for the lensing. More recently, I've been 
       generating mock simulated lensed images for Rubin LSST, using tools like SIMCT to help the community 
-      prepare for the much larger population of lenses that survey is expected to discover.`
+      prepare for the much larger population of lenses that survey is expected to discover, while also developing 
+      advanced machine learning techniques to extract them.`
     }
   ],
 
