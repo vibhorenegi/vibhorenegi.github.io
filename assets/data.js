@@ -148,9 +148,9 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
   news: [
     { date: "2026-06", text: "New paper: \"Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations,\" accepted in PASP." },
     { date: "2026-06", text: "New paper: \"DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1,\" submitted to ApJ." },
-    { date: "2026-05", text: "Gave a talk on spatially resolved chemical abundances in local star-forming galaxies at the Asia Pacific Regional IAU Meeting (APRIM), Hong Kong." },
+    { date: "2026-05", text: "Gave a talk on 'Spatially resolved chemical abundances in local star-forming galaxies' at the Asia Pacific Regional IAU Meeting (APRIM), Hong Kong." },
     { date: "2025-09", text: "Awarded the Foreign Scholars 'Huizhi' Program grant worth $30,000 by the Beijing Natural Science Foundation." },
-    { date: "2025-06", text: "Gave a talk on Generating mock simulated lensed images for the Rubin LSST at the Rubin Community Workshop, Tucson." },
+    { date: "2025-06", text: "Gave a talk on 'Generating mock simulated lensed images for the Rubin LSST' at the Rubin Community Workshop, Tucson." },
     { date: "2025-04", text: "Started as BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics, Peking University." }
   ],
 
@@ -227,6 +227,7 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
 
   links: {
     "ADS": "https://ui.adsabs.harvard.edu/user/libraries/SBEx_gRGRsaRAcDC9Bhpzw",
-    "GitHub": "https://github.com/vibhorenegi"
+    "GitHub": "https://github.com/vibhorenegi",
+    "Google scholar": "https://scholar.google.com/citations?user=h0OroEsAAAAJ&hl=en&oi=ao"
   }
 };
