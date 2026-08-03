@@ -108,13 +108,13 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
       title: "DESI as sparse IFU: chemical enrichment in galaxies and AGNs",
       text: `Dedicated integral field spectrographs are expensive and rare, but a multi-fiber survey 
       like DESI can approximate one when several fibers happen to land across a single nearby, extended 
-      galaxy. I've been developing this as a technique — treating DESI's fiber placements as a 
-      sparse IFU — to recover spatially resolved chemical abundance measurements without needing dedicated 
-      IFU time. Applied to a sample of local star-forming galaxies at z ≤ 0.1, this lets us map how metallicity 
+      galaxy. I've been exploiting the high multiplexing of the DESI survey - treating its fiber placements as 
+      a sparse IFU — to recover spatially resolved chemical abundance measurements without needing 
+      dedicated IFU time. Applied to a sample of local star-forming galaxies at z ≤ 0.1, this lets us map how metallicity 
       varies across a galaxy's disk and test what that gradient says about how the galaxy assembled its gas and 
       stars over time. Because it piggybacks on existing DESI data rather than requiring new observations, 
       the approach scales to far more galaxies than traditional IFU surveys ever could. This is the basis 
-      of my first-author paper currently under review at ApJ.`
+      of my recent paper currently under review at ApJ.`
     },
     {
       title: "AGN variability on diverse timescales",
@@ -149,14 +149,10 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
       text: `I'm part of the GAIA Gravitational Lenses (GAIA-GraL) collaboration, which uses Gaia's astrometry and 
       multi-band photometry to flag candidate gravitationally lensed quasars — systems where a foreground galaxy 
       splits the light from a background quasar into multiple images. As PI on several observing proposals, I've 
-      followed up these candidates with spectroscopy and imaging to confirm which are genuine lenses, and to 
-      characterize the deflector galaxies responsible for the lensing. I've also led photometric monitoring 
-      campaigns on confirmed lenses, including a quadruply imaged quasar, to measure the time delays between 
-      images — a technique that can independently constrain cosmological parameters. More recently, I've been 
+      followed up these candidates with spectroscopy and imaging to confirm which are real lenses, and to 
+      characterize the deflector galaxies responsible for the lensing. More recently, I've been 
       generating mock simulated lensed images for Rubin LSST, using tools like SIMCT to help the community 
-      prepare for the much larger population of lenses that survey is expected to discover. Together this spans 
-      the full pipeline: finding candidate lenses, confirming and characterizing them, and getting ready for the 
-      next generation of lens surveys.`
+      prepare for the much larger population of lenses that survey is expected to discover.`
     }
   ],
 
@@ -164,9 +160,9 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
     { date: "2026-06", text: "New paper: \"Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations,\" accepted in PASP." },
     { date: "2026-06", text: "New paper: \"DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1,\" submitted to ApJ." },
     { date: "2026-05", text: "Gave a talk on spatially resolved chemical abundances in local star-forming galaxies at the Asia Pacific Regional IAU Meeting (APRIM), Hong Kong." },
+    { date: "2025-09", text: "Awarded the Foreign Scholars 'Huizhi' Program grant worth $30,000 by the Beijing Natural Science Foundation." },
     { date: "2025-06", text: "Gave a talk on Generating mock simulated lensed images for the Rubin LSST at the Rubin Community Workshop, Tucson." },
-    { date: "2025-04", text: "Started as BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics, Peking University." },
-    { date: "2024-03", text: "Started the IUCAA-funded Rubin LSST Postdoctoral Fellowship at IUCAA, Pune." }
+    { date: "2025-04", text: "Started as BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics, Peking University." }
   ],
 
   publications: [
