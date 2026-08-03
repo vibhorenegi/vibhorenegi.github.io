@@ -166,14 +166,14 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
   ],
 
   publications: [
-    { year: "2026", title: "DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1", authors: "Negi, V.; Joshi, R.; Vishnupriya, B.; et al.", venue: "ApJ (submitted)", links: { ads: "#" } },
+    { year: "2026", title: "DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1", authors: "Negi, V.; Joshi, R.; Vishnupriya, B.; et al.", venue: "ApJ (submitted)", links: { ads: "https://ui.adsabs.harvard.edu/abs/2026arXiv260612541N/abstract" } },
     { year: "2026", title: "Multi-Object Optical Variability Experiments (MOOVE)", authors: "Negi, V.; Gopal-Krishna; Chand, K.; Chand, H.; Wu, X.; et al.", venue: "ApJ (under revision)", links: { ads: "#" } },
-    { year: "2026", title: "Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations", authors: "Negi, V.; Dukiya, N.; Mehra, G.; Ailawadhi, B.; et al.", venue: "PASP, in press", links: { ads: "#" } },
-    { year: "2024", title: "Necessity of a TDI optical corrector for ILMT observations", authors: "Negi, V.; Ailawadhi, B.; Akhunov, T.; Borra, E.; et al.", venue: "BSRSL, 93, 863", links: { ads: "#" } },
-    { year: "2023", title: "Intranight optical variability of TeV blazars with parsec-scale jets dominated by slow-moving radio knots", authors: "Negi, V.; Gopal-Krishna; Chand, H.; Britzen, S.", venue: "MNRAS Letters, 524L, 66", links: { ads: "#" } },
-    { year: "2023", title: "Intranight Optical Variability of blazars and radio-quiet quasars using the ZTF Survey", authors: "Negi, V.; Gopal-Krishna; Joshi, R.; Chand, H.; Wiita, P.; Navaneeth, P. K.; Singh, R. S.", venue: "MNRAS, 522, 5588", links: { ads: "#" } },
-    { year: "2023", title: "Probable low frequency quasi-periodic oscillations in blazars from the ZTF survey", authors: "Bannerjee, A.; Negi, V. (corresponding author); Joshi, R.; Kumar, N.; et al.", venue: "MNRAS, 526, 5172", links: { ads: "#" } },
-    { year: "2022", title: "Optical flux and colour variability of blazars in the ZTF Survey", authors: "Negi, V.; Joshi, R.; Chand, K.; Chand, H.; Wiita, P.; Ho, L. C.; Singh, R. S.", venue: "MNRAS, 510, 1791", links: { ads: "#" } }
+    { year: "2026", title: "Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations", authors: "Negi, V.; Dukiya, N.; Mehra, G.; Ailawadhi, B.; et al.", venue: "PASP, 138g4506N", links: { ads: "https://ui.adsabs.harvard.edu/abs/2026PASP..138g4506N/abstract" } },
+    { year: "2024", title: "Necessity of a TDI optical corrector for ILMT observations", authors: "Negi, V.; Ailawadhi, B.; Akhunov, T.; Borra, E.; et al.", venue: "BSRSL, 93, 863", links: { ads: "https://ui.adsabs.harvard.edu/abs/2024BSRSL..93..863N/abstract" } },
+    { year: "2023", title: "Intranight optical variability of TeV blazars with parsec-scale jets dominated by slow-moving radio knots", authors: "Negi, V.; Gopal-Krishna; Chand, H.; Britzen, S.", venue: "MNRAS Letters, 524L, 66", links: { ads: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.524L..66N/abstract" } },
+    { year: "2023", title: "Intranight Optical Variability of blazars and radio-quiet quasars using the ZTF Survey", authors: "Negi, V.; Gopal-Krishna; Joshi, R.; Chand, H.; Wiita, P.; Navaneeth, P. K.; Singh, R. S.", venue: "MNRAS, 522, 5588", links: { ads: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5588N/abstract" } },
+    { year: "2023", title: "Probable low frequency quasi-periodic oscillations in blazars from the ZTF survey", authors: "Bannerjee, A.; Negi, V. (corresponding author); Joshi, R.; Kumar, N.; et al.", venue: "MNRAS, 526, 5172", links: { ads: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.5172B/abstract" } },
+    { year: "2022", title: "Optical flux and colour variability of blazars in the ZTF Survey", authors: "Negi, V.; Joshi, R.; Chand, K.; Chand, H.; Wiita, P.; Ho, L. C.; Singh, R. S.", venue: "MNRAS, 510, 1791", links: { ads: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.1791N/abstract" } }
   ],
 
   cv: {
