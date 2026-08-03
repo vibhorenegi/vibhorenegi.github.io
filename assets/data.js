@@ -44,9 +44,8 @@ const DATA = {
 
 
         Day to day, most of my work is code. I develop data reduction and
-        analysis pipelines in Python, using tools like IRAF, DAOPHOT,
-        SExtractor, GALFIT, and TOPCAT for photometric and spectroscopic
-        calibration, source extraction, and astrometry. For the 4m
+        analysis pipelines in Python, supplemented with tools like IRAF, 
+        DAOPHOT, SExtractor, GALFIT, and TOPCAT, etc. For the 4m
         International Liquid Mirror Telescope (ILMT), I've worked on
         astrometric calibration and transient-detection pipelines for its
         scanning-mode (TDI) survey data. I also build simulations and mock
@@ -54,9 +53,11 @@ const DATA = {
         Rubin LSST.`,
 
   outside_text: `
-  I grew up in Almora in the Indian Himalayas, a few years in Delhi for my bachelor's and master's degrees, 
+  I grew up in Almora in the Indian Himalayas, spent a few years in Delhi for my bachelor's and master's degrees, 
   did my PhD in Nainital, a year in Pune, and I'm now in Beijing — a fair few skies along the 
-  way. Outside of work, I play cricket and table tennis, watch movies (and probably too much YouTube), 
+  way. 
+  
+  Outside of work, I play cricket and table tennis, watch movies (and probably too much YouTube), 
   and frequently enjoy wandering, without much of a plan.`,
 
   photos: [
