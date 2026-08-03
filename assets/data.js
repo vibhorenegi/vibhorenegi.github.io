@@ -138,8 +138,8 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
       multi-band photometry to flag candidate gravitationally lensed quasars — systems where a foreground galaxy 
       splits the light from a background quasar into multiple images. As PI on several observing proposals, I've 
       followed up these candidates with spectroscopy and imaging to confirm which are real lenses, and to 
-      characterize the deflector galaxies responsible for the lensing. More recently, I've been 
-      generating mock simulated lensed images for Rubin LSST, using tools like SIMCT to help the community 
+      characterize the deflector galaxies responsible for the lensing. More recently, with the LSST Strong Lensing Science 
+      Collaboration, I've been generating mock simulated lensed images for Rubin LSST, using tools like SIMCT to help the community 
       prepare for the much larger population of lenses that survey is expected to discover, while also developing 
       advanced machine learning techniques to extract them.`
     }
