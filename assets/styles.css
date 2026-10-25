@@ -124,6 +124,7 @@ section{margin-bottom:64px; scroll-margin-top:24px;}
 .page-sub{color:var(--muted); font-size:.98rem; margin-bottom:40px;}
 
 .lede{font-size:1.06rem; color:var(--ink-soft); max-width:78ch; line-height:1.75;}
+#intro .lede{font-weight:600; color:var(--ink);}
 p{text-wrap:pretty;}
 
 /* news / log / list entries */
