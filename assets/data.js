@@ -149,23 +149,29 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
   news: [
     { date: "2026-09", text: "Gave a talk on 'Spatially resolved chemical abundances in local star-forming galaxies' at the Kavli Astrophysics Symposium, University of Cambridge, UK." },
     { date: "2026-09", text: "Gave a talk on 'Chemical abundance gradients in local star-forming galaxies and AGNs' at the BRIDGCE annual meeting, University of Hertfordshire, UK." },
+    { date: "2026-09", text: "New paper: \"Search for intranight optical variability in a large sample of intermediate-mass black holes\" (Sharma et al.), submitted to ApJ." },
     { date: "2026-06", text: "New paper: \"Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations,\" accepted in PASP." },
     { date: "2026-06", text: "New paper: \"DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1,\" submitted to ApJ." },
     { date: "2026-05", text: "Gave a talk on 'Spatially resolved chemical abundances in local star-forming galaxies' at the Asia Pacific Regional IAU Meeting (APRIM), Hong Kong." },
+    { date: "2026-03", text: "New paper: \"SLSim: a strong lensing population simulation package\" (Khadka et al.), submitted to JCAP." },    
     { date: "2025-09", text: "Awarded the Foreign Scholars 'Huizhi' Program grant worth $30,000 by the Beijing Natural Science Foundation." },
     { date: "2025-06", text: "Gave a talk on 'Generating mock simulated lensed images for the Rubin LSST' at the Rubin Community Workshop, Tucson." },
     { date: "2025-04", text: "Started as BOYA Fellow at the Kavli Institute for Astronomy and Astrophysics, Peking University." }
   ],
 
   publications: [
+    { year: "2026", title: "Search for intranight optical variability in a large sample of intermediate-mass black holes", authors: "Sharma, H.; Gopal-Krishna; Negi, V.; et al.", venue: "MNRAS (under review)", links: { ads: "https://ui.adsabs.harvard.edu/abs/2026arXiv260903408S/abstract" } },
     { year: "2026", title: "DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1", authors: "Negi, V.; Joshi, R.; Vishnupriya, B.; et al.", venue: "ApJ (under review)", links: { ads: "https://ui.adsabs.harvard.edu/abs/2026arXiv260612541N/abstract" } },
     { year: "2026", title: "Multi-Object Optical Variability Experiments (MOOVE)", authors: "Negi, V.; Gopal-Krishna; Chand, K.; Chand, H.; Wu, X.; et al.", venue: "PASP (under review)", links: { ads: "#" } },
     { year: "2026", title: "Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations", authors: "Negi, V.; Dukiya, N.; Mehra, G.; Ailawadhi, B.; et al.", venue: "PASP, 138g4506N", links: { ads: "https://ui.adsabs.harvard.edu/abs/2026PASP..138g4506N/abstract" } },
+    { year: "2026", title: "SLSim: a strong lensing population simulation package", authors: "Khadka, N.; Birrer, S.; Best, H.; et al.", venue: "JCAP (under review)", links: { ads: "https://ui.adsabs.harvard.edu/abs/2026arXiv260317138K/abstract" } },
+    { year: "2025", title: "The 4 m International Liquid Mirror Telescope: Construction, operation, and science", authors: "Surdej, J.; Hickson, P.; Misra, K.; et al.", venue: "A&A, 694A, 80", links: { ads: "https://ui.adsabs.harvard.edu/abs/2025A%26A...694A..80S/abstract" } },
     { year: "2024", title: "Necessity of a TDI optical corrector for ILMT observations", authors: "Negi, V.; Ailawadhi, B.; Akhunov, T.; Borra, E.; et al.", venue: "BSRSL, 93, 863", links: { ads: "https://ui.adsabs.harvard.edu/abs/2024BSRSL..93..863N/abstract" } },
     { year: "2023", title: "Intranight optical variability of TeV blazars with parsec-scale jets dominated by slow-moving radio knots", authors: "Negi, V.; Gopal-Krishna; Chand, H.; Britzen, S.", venue: "MNRAS Letters, 524L, 66", links: { ads: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.524L..66N/abstract" } },
     { year: "2023", title: "Intranight Optical Variability of blazars and radio-quiet quasars using the ZTF Survey", authors: "Negi, V.; Gopal-Krishna; Joshi, R.; Chand, H.; Wiita, P.; Navaneeth, P. K.; Singh, R. S.", venue: "MNRAS, 522, 5588", links: { ads: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5588N/abstract" } },
     { year: "2023", title: "Probable low frequency quasi-periodic oscillations in blazars from the ZTF survey", authors: "Bannerjee, A.; Negi, V. (corresponding author); Joshi, R.; Kumar, N.; et al.", venue: "MNRAS, 526, 5172", links: { ads: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.5172B/abstract" } },
-    { year: "2022", title: "Optical flux and colour variability of blazars in the ZTF Survey", authors: "Negi, V.; Joshi, R.; Chand, K.; Chand, H.; Wiita, P.; Ho, L. C.; Singh, R. S.", venue: "MNRAS, 510, 1791", links: { ads: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.1791N/abstract" } }
+    { year: "2022", title: "Optical flux and colour variability of blazars in the ZTF Survey", authors: "Negi, V.; Joshi, R.; Chand, K.; Chand, H.; Wiita, P.; Ho, L. C.; Singh, R. S.", venue: "MNRAS, 510, 1791", links: { ads: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.1791N/abstract" } },
+    { year: "2022", title: "Upcoming 4m ILMT facility and data reduction pipeline testing", authors: "Kumar, B.; Negi, V.; Ailawadhi, B.; et al.", venue: "JApA, 43, 10", links: { ads: "https://ui.adsabs.harvard.edu/abs/2022JApA...43...10K/abstract" } }
   ],
 
   cv: {
