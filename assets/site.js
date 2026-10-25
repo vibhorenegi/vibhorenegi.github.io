@@ -86,7 +86,7 @@ function renderResearchAreas(areas){
   return areas.map(a => `
     <div class="cv-group">
       <h3 class="area-title">${a.title}</h3>
-      <p style="font-size:1rem; color:var(--ink-soft); margin:0;">${a.text}</p>
+      <p style="font-size:1.06rem; line-height:1.75; color:var(--ink-soft); margin:0;">${a.text}</p>
     </div>
   `).join('');
 }
