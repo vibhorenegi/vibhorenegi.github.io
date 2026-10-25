@@ -85,8 +85,8 @@ function renderJourney(stops){
 function renderResearchAreas(areas){
   return areas.map(a => `
     <div class="cv-group">
-      <h3>${a.title}</h3>
-      <p style="font-size:.92rem; color:var(--ink-soft); margin:0;">${a.text}</p>
+      <h3 class="area-title">${a.title}</h3>
+      <p style="font-size:1rem; color:var(--ink-soft); margin:0;">${a.text}</p>
     </div>
   `).join('');
 }
