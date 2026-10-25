@@ -149,7 +149,7 @@ data, observational photometry and spectroscopy, and the pipelines that make sen
   news: [
     { date: "2026-09", text: "Gave a talk on 'Spatially resolved chemical abundances in local star-forming galaxies' at the Kavli Astrophysics Symposium, University of Cambridge, UK." },
     { date: "2026-09", text: "Gave a talk on 'Chemical abundance gradients in local star-forming galaxies and AGNs' at the BRIDGCE annual meeting, University of Hertfordshire, UK." },
-    { date: "2026-09", text: "New paper: \"Search for intranight optical variability in a large sample of intermediate-mass black holes\" (Sharma et al.), submitted to ApJ." },
+    { date: "2026-09", text: "New paper: \"Search for intranight optical variability in a large sample of intermediate-mass black holes\" (Sharma et al.), submitted to MNRAS." },
     { date: "2026-06", text: "New paper: \"Astrometric Calibration of the 4-m International Liquid Mirror Telescope observations,\" accepted in PASP." },
     { date: "2026-06", text: "New paper: \"DESI as sparse integral field spectrograph — I: Spatially resolved chemical enrichment in star-forming galaxies at z ≤ 0.1,\" submitted to ApJ." },
     { date: "2026-05", text: "Gave a talk on 'Spatially resolved chemical abundances in local star-forming galaxies' at the Asia Pacific Regional IAU Meeting (APRIM), Hong Kong." },
