@@ -1,35 +1,36 @@
 :root{
-  --paper:#ffffff;
-  --panel:#f9fafb;
-  --ink:#111827;
-  --ink-soft:#2f3a4a;
-  --muted:#6b7280;
-  --navy:#1d4ed8;
-  --navy-deep:#1e3a8a;
-  --gold:#6b7280;
-  --spectral:#1e40af;
-  --line:#e5e7eb;
+  --paper:#2a2c38;
+  --panel:#333647;
+  --ink:#f1f2f6;
+  --ink-soft:#d4d6df;
+  --muted:#9a9db0;
+  --navy:#8fb3ff;
+  --navy-deep:#c9d8ff;
+  --gold:#9a9db0;
+  --spectral:#b8ccff;
+  --line:#424559;
   --radius:4px;
+  color-scheme:dark;
 }
 *{box-sizing:border-box;}
-html{scroll-behavior:smooth; font-size:110%;}
+html{scroll-behavior:smooth; font-size:120%;}
 body{
   margin:0;
   background:var(--paper);
   color:var(--ink);
-  font-family:'Inter', -apple-system, sans-serif;
+  font-family:'Source Sans 3', -apple-system, sans-serif;
   line-height:1.6;
   font-optical-sizing:auto;
   -webkit-font-smoothing:antialiased;
 }
 h1,h2,h3{
-  font-family:'Inter', -apple-system, sans-serif;
+  font-family:'Source Sans 3', -apple-system, sans-serif;
   font-weight:700;
   letter-spacing:-.01em;
   color:var(--ink);
   margin:0;
 }
-.mono{font-family:'Inter', -apple-system, sans-serif; font-variant-numeric:tabular-nums;}
+.mono{font-family:'Source Sans 3', -apple-system, sans-serif; font-variant-numeric:tabular-nums;}
 a{color:var(--navy); text-decoration:none;}
 a:hover{color:var(--spectral); text-decoration:underline; text-underline-offset:3px;}
 a:focus-visible, button:focus-visible{outline:2px solid var(--navy); outline-offset:2px;}
